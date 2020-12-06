@@ -1,0 +1,34 @@
+h1 {
+    color: aqua;
+    font-family: Andalus;
+    font-size: larger;
+}
+
+#aviso{
+    color: red;
+}
+
+p{
+    color: blueviolet;
+    font-family: Arial;
+    font-size: medium;
+}
+
+.a{
+    color: darkgoldenrod;
+    font-family: "Courier New";
+}
+
+div{
+    font-style: italic;
+}
+
+.c{
+    color: green;
+}
+
+h1::first-letter {
+    font-size: 40rem;
+}
+
+h1, #aviso, p, .a, div, .c {font-weight: bold}

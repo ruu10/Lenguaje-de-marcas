@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.me {
+    background-color: aquamarine;
+    width: 20%;
+    height: 400px;
+    text-align: center;
+    float: left;
+}
+
+.ma {
+    background-color: blueviolet;
+    width: 78%;
+    margin-left:2%;
+    text-align: center;
+    float: right;
+}
+
+.hija {
+    background-color: aqua;
+    width: 50%;
+    border: 2px solid black;
+    text-align: center;
+    height: 300px;
+    float: left;
+}
+
+.hija2 {
+    background-color: aqua;
+    width: 48%;
+    margin: 1%;
+    height: 300px;
+    float: left;
+    padding: 2%;
+}
+
+.bi {
+    background-color: chartreuse;
+    width: 100%;
+    float: bottom;
+}
+
+.option {
+    background-color: orange;
+    width: 100%;
+    float: bottom;
+    border-style: dashed;
+    margin-top: 0.25%;
+    height: 20%;
+    padding: 15px;
+    border-width: 3px;
+}
+
+.general  {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.arti{
+    float: bottom;
+    width: 100%;
+    position: relative;
+}
+
+.arti1 {
+    float: left;
+    background-color: salmon;
+    height: 200px;
+    width: 40%;
+    margin-right: 5px;
+    margin-left: 4%;
+    padding: 1em;
+}
+
+.tl {
+    margin-top: 0px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.texto {
+    background-color: palegoldenrod;
+    height: 60px;
+    width: 125px;
+    margin: 18px;
+    margin-top: 0px;
+    padding-top: 10px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.general2 {
+    float: left;
+    width: 160px;
+}
+
+.arti2 {
+    float: left;
+    background-color: salmon;
+    width: 100%;
+    height: 93px;
+    margin-bottom: 4px;
+    border: 3px solid purple;
+    margin-left: 2%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.texto2 {
+    background-color: palegoldenrod;
+    height: 30px;
+    width: 95%;
+    margin: 3px;
+    margin-top: 0px;
+    padding-top: 5px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.menu2 {
+    background-color: greenyellow;
+    width: 100%;
+    float: bottom;
+}
+
+.general3 {
+    width: 100%;
+    height: 40%;
+    padding: 5px;
+}
+
+.option1 {
+    background-color: orange;
+    border-style: dashed;
+    border-width: 3px;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin-top: 2%;
+    margin: 10px;
+}
+
+.capitulos {
+    width: 32%;
+    height: 40%;
+    margin-top: 2%;
+    float: left;
+    margin-left: 3%;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.imagenes {
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 3%;
+    font-family: 'Gloria Hallelujah', cursive;
+}

@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.hija {
+    background-color: aqua;
+    border: 2px solid black;
+    width: 20%;
+    margin: 2%;
+    padding: 2em;
+    text-align: center;
+    height: 300px;
+    float: left;
+}

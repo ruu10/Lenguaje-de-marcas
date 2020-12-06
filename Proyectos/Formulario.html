@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+<form>
+  <fieldset>
+    <legend>Datos de usuario</legend>
+    <label for="dni">DNI:</label>
+    <input type="text" name="dni" id="dni"
+               pattern="[0-9]" title="debe poner 8 números y una letra" />
+    <br><br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido" maxlength="30" />
+    <br><br>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" maxlength="15" />
+    <br><br>
+    <label for="fecha">Fecha de Nacimiento:</label>
+    <input type="text" name="fecha" id="fecha">
+    <br><br>
+    <label for="paises">Nacionalidad:</label>
+    <select name="paises" id="paises">
+        <option value="es" selected>España</option>
+        <option value="fr">Francia</option>
+        <option value="it">Italia</option>
+    </select>
+  </fieldset>
+    <br>
+  <fieldset>
+    <legend>Otros datos</legend>
+    <label for="email">Correo electrónico:</label>
+    <input type="email" name="email" id="email">
+    <br><br>
+    <label for="contraseña">Contraseña:</label>
+    <input type="password" name="contraseña" id="contraseña" maxlength="10">
+    <br><br>
+    <label>Sexo:</label><br>
+    <label for="masculino">Varón</label>
+    <input type="radio" name="sexo" id="masculino"><br>
+    <label for="femenino">Mujer</label>
+    <input type="radio" name="sexo" id="femenino">
+
+    <br><br>
+    <label for="text">Texto:</label>
+    <textarea name="texto" id="text" cols="40" rows="6"></textarea>
+    <br><br>
+    <label for="mail">Recibir más información a traves del correo</label>
+    <input type="checkbox" name="mail" id="mail" checked>
+  </fieldset>
+    <br>
+    <input type="submit" value="Enviar">
+    <input type="submit" value="Restablecer">
+</form>
+</body>
+</html>

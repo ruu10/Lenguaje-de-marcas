@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Bootstrap</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <div class="container text-center">
+    <h1>Práctica de Bootstrap Grid</h1>
+    </div>
+    <div class="container">
+    <h2>Tipos de Container</h2>
+    <div class="container bg-success">
+        <h3>.container</h3>
+        <p>Fondo color éxito (bg-success)</p>
+    </div>
+
+    <div class="container-fluid bg-danger text-white">
+        <h3>.container-fluid</h3>
+        <p>Fondo color peligro (bg-danger), texto blanco (text-white)</p>
+    </div>
+
+    <h2>Sistema Grid</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 bg-success">
+                <h3>Columna 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="col-4 bg-warning">
+                <h3>Columna 2</h3>
+                <p>Fondo color aviso (bg-warning)</p>
+            </div>
+            <div class="col-4 bg-danger">
+                <h3>Columna 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </div>
+    <h2>Tamaño y ubiación columnas: clases offset-*</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 bg-success">
+                    <h3>Columna 1</h3>
+                    <p>Columna tamaño 4</p>
+                </div>
+                <div class="col-4  bg-danger offset-4">
+                    <h3>Columna 2</h3>
+                    <p>Columna tamaño 4 y offset 4</p>
+                </div>
+            </div>
+        </div>
+
+    <h2>Reordenar columnas: clases order-*</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-8 bg-success order-4">
+                    <h3>Columna 2</h3>
+                    <p>Columna reordenada cuando pantalla grande col-8 y order-lg-4</p>
+                </div>
+                <div class="col-4 bg-warning order-lg-8">
+                    <h3>Columna 1</h3>
+                    <p>Columna reordenada cuando pantalla grande col-4 y order-lg-8</p>
+                </div>
+            </div>
+        </div>
+    <h2>Columnas hidden: clases display d-*</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 bg-success">
+                    <h3>Columna 1</h3>
+                    <p>Siempre visible</p>
+                </div>
+                <div class="col-4 bg-warning d-none d-sm-block ">
+                    <h3>Columna 2</h3>
+                    <p>Se ocultará cuando tamaño menor de sm (movil) "d-none d-sm-block"</p>
+                </div>
+                <div class="col-4 bg-danger d-none d-sm-block">
+                    <h3>Columna 3</h3>
+                    <p>Se ocultará cuando menor de md (tablet) "d-none d-md-block"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
